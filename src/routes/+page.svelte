@@ -68,6 +68,7 @@
         <div class="text-center mb-12 animate-fade-in">
           <h1 class="text-6xl font-bold mb-4 text-orange-500">THINZAR</h1>
           <p class="text-4xl font-light mb-8">UI/UX DESIGNER</p>
+          
           <p class="text-xl">Innovative Solutions for Digital Experiences</p>
         </div>
       {:else if currentSection === 'about'}
