@@ -37,31 +37,31 @@
   
   <div class="min-h-screen flex flex-col transition-colors duration-300 {isDarkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}">
     <header class="flex items-center sticky top-0 backdrop-blur bg-white/30 dark:bg-gray-900/30">
-    <div class="bg-orange-500 p-4">
-      <a href="" class="text-white font-bold">Thinzar</a>
+    <div class="bg-orange-500 px-2 py-4">
+      <a href="https://thinzarshunlett.netlify.app/" class="text-white font-bold text-xs md:text-base ">Thinzar</a>
     </div>
     <nav class="flex-grow ">
-      <ul class="flex space-x-4 p-4">
-        <li><button on:click={() => setSection('home')} class="hover:text-orange-500 {currentSection === 'home' ? 'font-bold text-orange-500' : ''}">HOME</button></li>
-        <li><button on:click={() => setSection('about')} class="hover:text-orange-500 {currentSection === 'about' ? 'font-bold text-orange-500' : ''}">ABOUT</button></li>
-        <li><button on:click={() => setSection('projects')} class="hover:text-orange-500 {currentSection === 'projects' ? 'font-bold text-orange-500' : ''}">PROJECTS</button></li>
-        <li><button on:click={() => setSection('contact')} class="hover:text-orange-500 {currentSection === 'contact' ? 'font-bold text-orange-500' : ''}">CONTACT</button></li>
+      <ul class="flex space-x-2 lg:space-x-4 p-2.5 lg:p-4">
+        <li><button on:click={() => setSection('home')} class="hover:text-orange-500 text-xs md:text-base {currentSection === 'home' ? 'font-bold text-orange-500' : ''}">Home</button></li>
+        <li><button on:click={() => setSection('about')} class="hover:text-orange-500 text-xs md:text-base {currentSection === 'about' ? 'font-bold text-orange-500' : ''}">About</button></li>
+        <li><button on:click={() => setSection('projects')} class="hover:text-orange-500 text-xs md:text-base {currentSection === 'projects' ? 'font-bold text-orange-500' : ''}">Works</button></li>
+        <li><button on:click={() => setSection('contact')} class="hover:text-orange-500 text-xs md:text-base {currentSection === 'contact' ? 'font-bold text-orange-500' : ''}">Contact</button></li>
       </ul>
     </nav>
     <button
       on:click={toggleDarkMode}
-      class="flex p-4 space-x-2 hover:bg-orange-500 dark:hover:bg-gray-800 transition-colors duration-200"
+      class="flex justify-center items-center px-2 py-4 space-x-2 hover:bg-orange-500 dark:hover:bg-gray-800 transition-colors duration-200"
       aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
     >
     {#if isDarkMode}
-        <Sun size={24} />
+        <Sun size={16} />
       {:else}
-        <Moon size={24} />
+        <Moon size={16} />
       {/if}
-      <span>Mode</span>
+      <span class="text-xs md:text-base ">Mode</span>
       
     </button>
-  </header>
+    </header>
   
     <main class="flex-grow flex flex-col items-center justify-center p-4">
       {#if currentSection === 'home'}
