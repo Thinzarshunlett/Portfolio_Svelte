@@ -116,14 +116,14 @@
       {/if}
     </main>
   
-    <!-- <footer class="p-4 text-center bg-orange-500 text-white">
+    <footer class="p-4 text-center bg-orange-500 text-white">
       <div class="flex justify-center space-x-4 mb-4">
         <a href="#" class="hover:text-gray-200 transition-colors duration-200" aria-label="GitHub"><Github size={24} /></a>
         <a href="#" class="hover:text-gray-200 transition-colors duration-200" aria-label="LinkedIn"><Linkedin size={24} /></a>
         <a href="#" class="hover:text-gray-200 transition-colors duration-200" aria-label="Twitter"><Twitter size={24} /></a>
       </div>
       <p>&copy; 2024 Thinzar. All rights reserved.</p>
-    </footer> -->
+    </footer>
   </div>
   
   <style>
