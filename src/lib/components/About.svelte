@@ -9,9 +9,9 @@
   ];
 
   const stats = [
-    { value: '100+', label: 'PROJECT' },
-    { value: '90+', label: 'HAPPY CLIENTS' },
-    { value: '96+', label: 'POSITIVE REVIEW' }
+    { value: '10+', label: 'PROJECTS' },
+    { value: '9+', label: 'HAPPY CLIENTS' },
+    { value: '12+', label: 'POSITIVE REVIEW' }
   ];
   let education = [
     { course: "UI/UX Design", institution: "Coursera, Self-study" },
@@ -54,7 +54,7 @@
       </div>
     
       <div class="mt-8 md:mt-auto flex justify-center md:justify-start gap-6">
-        <a href="#" class="text-gray-600 hover:text-[#FF4500]">
+        <a href="https://github.com/Thinzarshunlett" class="text-gray-600 hover:text-[#FF4500]">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
         </a>
         <a href="#" class="text-gray-600 hover:text-[#FF4500]">
@@ -76,16 +76,12 @@
         </div>
       
         <div class="flex flex-col md:flex-row gap-8 items-center md:items-start border-black border-l-2 border-dotted ps-4 md:ps-8">
-          <img src="/images/au.png" alt="Avatar" class="w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full object-cover" />
-      
+          <img src="/images/profile.png" alt="Avatar" class="w-32 h-32 md:w-64 md:h-64 rounded-full object-cover" />      
           <div class="text-center md:text-left">
             <h3 class="text-2xl font-bold mb-2">Thinzar Shun Lett</h3>
             <p class="text-gray-600 mb-4">UI/UX Designer</p>
             <p class="text-gray-700 leading-relaxed">
-              I specialize in creating intuitive and aesthetically pleasing interfaces that enhance user experience. With a background
-              in Computer Science and practical experience from job simulations with Accenture and BP, I excel in crafting error-free
-              designs that prioritize functionality and user satisfaction. Currently contributing as a Junior UI/UX designer in a
-              technology company, I am passionate about continuous improvement and innovation in UI/UX design.
+              I’m a UI/UX Designer who transitioned from a background in Computer Science because I found true joy in combining technology with design. My technical foundation fuels my passion for creating user-friendly and visually engaging digital experiences. Now, as a Junior UI/UX Designer in a technology company, I’m excited to blend my technical knowledge with creativity, crafting intuitive and visually compelling user experiences. I’m passionate about the continuous innovation in design and always strive to make a positive impact with every project.
             </p>
           </div>
         </div>
@@ -102,7 +98,7 @@
           <!-- Skills Overview -->
           <div class="space-y-6 md:basis-1/2">
             <p class="text-gray-700 leading-relaxed">
-              Passionate about UI/UX design with strong programming skills in HTML, CSS, Bootstrap, Tailwind, JavaScript, Svelte, and Figma. 
+              Passionate about UI/UX design with strong programming skills in HTML, CSS, Bootstrap, Tailwind, Svelte, and UI/UX. 
               I excel in creating intuitive interfaces and am dedicated to advancing my career in UI/UX design, leveraging my programming 
               knowledge to craft effective solutions.
             </p>
@@ -144,7 +140,7 @@
                 </div>
                 <div class="flex flex-wrap md:flex-row flex-col gap-4">
                     <div class="flex flex-wrap gap-2">
-                        <span class="px-4 py-1 rounded-full bg-orange-50 font-medium text-orange-600 flex items-center">AI Application</span>
+                        <span class="px-4 py-1 rounded-full bg-orange-50 font-medium text-orange-600 flex items-center">AI platforms</span>
                         <span class="px-4 py-1 rounded-full bg-orange-50 font-medium text-orange-600 flex items-center">Product Design</span>
                         <span class="px-4 py-1 rounded-full bg-orange-50 font-medium text-orange-600 flex items-center">Landing Page</span>
                     </div>
@@ -156,9 +152,7 @@
                 </div>
             </div>
             <p class="text-gray-700 leading-relaxed">
-                Passionate about UI/UX design with strong programming skills in HTML, CSS, Bootstrap, Tailwind, JavaScript, Svelte, and Figma. I
-                excel in creating intuitive interfaces and am dedicated to advancing my career in UI/UX design, leveraging my programming knowledge
-                to craft effective solutions.
+              As a UI/UX Designer, I’ve worked on AI platforms, product designs, and landing pages. I focus on making complex AI applications intuitive and user-friendly. For product design, I create seamless experiences from wireframes to high-fidelity prototypes. I also design landing pages that clearly communicate brand messages and drive conversions. My goal in every project is to enhance usability, accessibility, and overall user experience.
             </p>
         </div>
       </section>

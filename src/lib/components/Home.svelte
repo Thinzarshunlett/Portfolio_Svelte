@@ -10,11 +10,7 @@
         <h1 class="mt-2 text-5xl font-bold text-orange-600 md:text-6xl text-center md:text-start">UI/UX Designer</h1>
         <h2 class="mt-4 text-2xl font-semibold text-gray-800 text-center md:text-start">Thinzar Shun Lett</h2>
         <p class="mt-4 text-gray-600 text-center md:text-start">
-          I specialize in creating intuitive and aesthetically pleasing interfaces that enhance user experience. With a
-          background in Computer Science and practical experience from job simulations with Accenture and BP, I excel in
-          crafting error-free designs that prioritize functionality and user satisfaction. Currently contributing as a
-          Junior UI/UX designer in a technology company, I am passionate about continuous improvement and innovation in
-          UI/UX design.
+          I’m a UI/UX Designer dedicated to creating intuitive, visually appealing, and user-friendly digital experiences. With a background in Computer Science and over a year of hands-on experience, I specialize in crafting seamless, error-free designs that prioritize functionality and user satisfaction. Currently, I work as a Junior UI/UX Designer at a technology company, continuously refining and innovating digital experiences.
         </p>
         <div class="flex w-full justify-center md:justify-start">
           <button 

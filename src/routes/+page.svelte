@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from 'svelte';
-    import { Moon, Sun, ArrowRight, Github, Linkedin, Twitter } from 'lucide-svelte';
+    import { Moon, CloudSun, ArrowRight, Github, Linkedin, Twitter } from 'lucide-svelte';
     import { Pencil, Smartphone, Search, Zap } from 'lucide-svelte';
 	import Home from '$lib/components/Home.svelte';
 	import About from '$lib/components/About.svelte';
@@ -53,19 +53,11 @@
         <li><button on:click={() => setSection('contact')} class="hover:text-orange-500 text-xs md:text-base {currentSection === 'contact' ? 'font-bold text-orange-500' : ''}">Contact</button></li>
       </ul>
     </nav>
-    <button
-      on:click={toggleDarkMode}
-      class="flex justify-center items-center px-2 py-4 space-x-2 hover:bg-orange-500 dark:hover:bg-gray-800 transition-colors duration-200"
-      aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
-    >
-    {#if isDarkMode}
-        <Sun size={16} />
-      {:else}
-        <Moon size={16} />
-      {/if}
-      <span class="text-xs md:text-base ">Mode</span>
-      
-    </button>
+  
+      <a href="" class="flex gap-2 justify-center items-center">
+        <CloudSun size={16} />
+      <span class="text-xs md:text-base ">Insights</span>
+      </a>      
     </header>
   
     <main class="flex-grow flex flex-col items-center justify-center ">

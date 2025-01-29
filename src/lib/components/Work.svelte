@@ -8,7 +8,7 @@
         id: 1,
         title: "NeuralDev Landing Page",
         description: "Passionate about UI/UX design with strong programming skills in HTML, CSS, Bootstrap, T...",
-        image: "/images/au.png",
+        image: "/images/ND.png",
         category: "Landing Page"
       },
       // Duplicate projects for the grid
@@ -62,7 +62,7 @@
   <div class="relative">
     <!-- Project Display -->
     <div class="flex flex-col md:flex-row px-4 gap-8 items-center">
-       <div class="flex flex-col">
+       <div class="flex basis-1/2 flex-col">
         <div class="relative aspect-video overflow-hidden rounded-lg border">
           <img
             src={projects[currentProject].image || "/placeholder.svg"}
@@ -82,23 +82,23 @@
         </div>
        </div>
        <!-- Navigation Buttons -->
-    <div class="md:absolute flex gap-3 md:flex-col md:right-0 md:bottom-8 ">
-      <button
-      on:click={previousProject}
-      class=" bg-orange-600 rounded-full p-1.5 hover:bg-orange-700 "
-      aria-label="Previous project"
-      >
-          <ChevronUp class="h-4 w-4 text-white" />
-      </button>
-      <button
-      on:click={nextProject}
-      class=" bg-orange-600 rounded-full p-1.5 hover:bg-orange-700 "
-      aria-label="Next project"
-      >
-          <ChevronDown class="h-4 w-4 text-white" />
-      </button>
-  </div>
-      <div class="space-y-4 ">
+        <div class="md:absolute flex gap-3 md:flex-col md:right-0 md:bottom-8 ">
+            <button
+            on:click={previousProject}
+            class=" bg-orange-600 rounded-full p-1.5 hover:bg-orange-700 "
+            aria-label="Previous project"
+            >
+                <ChevronUp class="h-4 w-4 text-white" />
+            </button>
+            <button
+            on:click={nextProject}
+            class=" bg-orange-600 rounded-full p-1.5 hover:bg-orange-700 "
+            aria-label="Next project"
+            >
+                <ChevronDown class="h-4 w-4 text-white" />
+            </button>
+        </div>
+      <div class="space-y-4 basis-1/2">
         <span class="text-sm font-semibold text-gray-500">PROJECTS {String(currentProject + 1).padStart(2, '0')}</span>
         <h2 class="text-3xl font-bold">{projects[currentProject].title}</h2>
         <p class="text-gray-600">{projects[currentProject].description}</p>
@@ -107,7 +107,9 @@
           class="inline-flex items-center text-orange-600 hover:text-orange-500"
         >
           See it live
-         
+          <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
         </a>
       </div>
      
@@ -141,7 +143,7 @@
     <!-- Project Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
       {#each filteredProjects as project}
-        <div class="bg-white rounded-lg border overflow-hidden">
+        <div class="bg-white rounded-lg border overflow-hidden hover:border-black hover:shadow-[-4px_4px_0px_black]">
           <div class="relative aspect-video">
             <img 
               src={project.image || "/placeholder.svg"} 
@@ -153,7 +155,7 @@
             <h3 class="text-xl font-bold mb-4">{project.title}</h3>
             <p class="text-gray-600 mb-4">{project.description}</p>
             <a href="#" class="inline-flex items-center font-semibold text-orange-500 hover:text-orange-600">
-              Works
+              See
               <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
