@@ -4,23 +4,25 @@
 </script>
 <div class="m min-h-screen">
     <!-- Hero Section -->
-    <div class="relative grid gap-8 md:grid-cols-2 md:p-12 p-8 bg-orange-50 rounded-br-3xl rounded-bl-3xl">
-      <div>
-        <p class="text-gray-600">Hello, I'm</p>
-        <h1 class="mt-2 text-5xl font-bold text-orange-600 md:text-6xl">UI/UX Designer</h1>
-        <h2 class="mt-4 text-2xl font-semibold text-gray-800">Thinzar Shun Lett</h2>
-        <p class="mt-4 text-gray-600">
+    <div class="relative flex flex-col-reverse md:flex-row gap-16 items-center md:p-12 p-8 bg-orange-50 rounded-br-3xl rounded-bl-3xl">
+      <div class="">
+        <p class="text-gray-600 text-center md:text-start">Hello, I'm</p>
+        <h1 class="mt-2 text-5xl font-bold text-orange-600 md:text-6xl text-center md:text-start">UI/UX Designer</h1>
+        <h2 class="mt-4 text-2xl font-semibold text-gray-800 text-center md:text-start">Thinzar Shun Lett</h2>
+        <p class="mt-4 text-gray-600 text-center md:text-start">
           I specialize in creating intuitive and aesthetically pleasing interfaces that enhance user experience. With a
           background in Computer Science and practical experience from job simulations with Accenture and BP, I excel in
           crafting error-free designs that prioritize functionality and user satisfaction. Currently contributing as a
           Junior UI/UX designer in a technology company, I am passionate about continuous improvement and innovation in
           UI/UX design.
         </p>
-        <button 
+        <div class="flex w-full justify-center md:justify-start">
+          <button 
           class="mt-6 px-4 py-2 bg-[#F85A1A] text-white rounded-md hover:bg-orange-600  transition-colors"
-        >
-          My work
-        </button>
+          >
+            My work
+          </button>
+        </div>
       </div>
       <div class="flex justify-center md:justify-end">
         <img
