@@ -4,17 +4,18 @@
 </script>
 <div class="m min-h-screen">
     <!-- Hero Section -->
-    <div class="relative flex flex-col-reverse md:flex-row gap-16 items-center md:p-12 p-8 bg-orange-50 rounded-br-3xl rounded-bl-3xl">
-      <div class="">
+    <div class="relative flex flex-col-reverse md:flex-row md:gap-16 items-center md:px-12 px-8 bg-orange-50 rounded-br-3xl rounded-bl-3xl">
+      <div class="basis-3/4">
         <p class="text-gray-600 text-center md:text-start">Hello, I'm</p>
-        <h1 class="mt-2 text-5xl font-bold text-orange-600 md:text-6xl text-center md:text-start">UI/UX Designer</h1>
-        <h2 class="mt-4 text-2xl font-semibold text-gray-800 text-center md:text-start">Thinzar Shun Lett</h2>
+        <!-- <h1 class="mt-2 text-5xl font-bold text-orange-600 md:text-6xl text-center md:text-start">UI/UX Designer</h1> -->
+        <h2 class="mt-2 text-2xl font-semibold text-gray-800 text-center md:text-start">Thinzar Shun Lett</h2>
+        <h1 class="mt-4 text-3xl font-bold text-orange-600 md:text-3xl text-center md:text-start">Designing seamless digital experiences</h1>
         <p class="mt-4 text-gray-600 text-center md:text-start">
           I’m a UI/UX Designer dedicated to creating intuitive, visually appealing, and user-friendly digital experiences. With a background in Computer Science and over a year of hands-on experience, I specialize in crafting seamless, error-free designs that prioritize functionality and user satisfaction. Currently, I work as a Junior UI/UX Designer at a technology company, continuously refining and innovating digital experiences.
         </p>
         <div class="flex w-full justify-center md:justify-start">
           <button 
-          class="mt-6 px-4 py-2 bg-[#F85A1A] text-white rounded-md hover:bg-orange-600  transition-colors"
+          class="my-6 px-4 py-2 bg-[#F85A1A] text-white rounded-md hover:bg-orange-600  transition-colors"
           >
             My work
           </button>
@@ -22,15 +23,15 @@
       </div>
       <div class="flex justify-center md:justify-end">
         <img
-          src="/images/au.png"
+          src="/images/UI.png"
           alt="Cute cartoon character"
-          class="max-w-[300px] md:max-w-[400px] rounded-full"
+          class="max-w-[300px] md:max-w-[500px] rounded-full"
         />
       </div>
     </div>
 
     <!-- Specialties Section -->
-    <section class="my-8">
+    <section class="mt-8 mb-16">
       <h2 class="mb-12 text-center text-3xl font-bold text-gray-800">Specialties</h2>
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:px-12 px-8">
         <!-- UI/UX Design Card -->

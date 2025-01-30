@@ -1,4 +1,5 @@
 <script>
+      import { ChevronUp,ChevronDown,ChevronLeft,ChevronRight } from 'lucide-svelte';
     export let showOnPx = 150;
     let hidden = true;
   
@@ -33,7 +34,8 @@
       user-select: none;
       bottom: 20px;
       color: white;
-      background-color: black;
+      background-color: orangered;
+      border-radius: 30px;
     }
   
     .back-to-top.hidden {
@@ -44,5 +46,7 @@
   
   <svelte:window on:scroll={handleOnScroll} />
   
-  <div class="back-to-top" on:click={goTop} class:hidden>Back to top</div>
+  <div class="back-to-top" on:click={goTop} class:hidden>
+    <ChevronUp class="h-4 w-4 text-white " />
+  </div>
   

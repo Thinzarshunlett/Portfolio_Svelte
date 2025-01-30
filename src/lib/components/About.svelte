@@ -76,7 +76,7 @@
         </div>
       
         <div class="flex flex-col md:flex-row gap-8 items-center md:items-start border-black border-l-2 border-dotted ps-4 md:ps-8">
-          <img src="/images/profile.png" alt="Avatar" class="w-32 h-32 md:w-64 md:h-64 rounded-full object-cover" />      
+          <img src="/images/profile.jpeg" alt="Avatar" class="w-32 h-32 md:w-64 md:h-64 rounded-full object-cover" />      
           <div class="text-center md:text-left">
             <h3 class="text-2xl font-bold mb-2">Thinzar Shun Lett</h3>
             <p class="text-gray-600 mb-4">UI/UX Designer</p>

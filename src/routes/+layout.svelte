@@ -1,6 +1,6 @@
 <script>
     import "../app.css";
 </script>
-  <main class="font-roboto">
+  <main class="">
   <slot />
   </main>
