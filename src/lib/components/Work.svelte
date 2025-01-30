@@ -68,6 +68,14 @@
         category: "Landing Page",
         liveUrl: "https://www.figma.com/design/zkoAS2bWt1LWQoJE09GzPL/Hexcode-for-portfolio?node-id=0-1&t=BbRKbs1YbM00iL4S-1"
       },
+      {
+        id: 9,
+        title: "Driving Online Enrollment UI",
+        description: "Designed a responsive, mobile-friendly UI in Figma for an online driving enrollment system. The interface follows a step-by-step guided process with a clean and modern layout.",
+        image: "/images/car.png",
+        category: "Web Design",
+        liveUrl: "https://www.figma.com/design/uTdJ9rEUAtuDARZ0oaz57v/Online-Enrolment-for-portfolio?node-id=0-1&t=TCWlYIthXMEyD1kS-1"
+      },
     ];
   
     $: filteredProjects = activeCategory === "ALL" 

@@ -17,7 +17,7 @@
     }
   </script>
   
-    <div class="w-3/4 max-w-4xl bg-white rounded-2xl border border-black shadow-[-4px_4px_0px_black] overflow-hidden flex flex-col md:flex-row">
+    <div class="w-3/4 max-w-4xl my-6 bg-white rounded-2xl border border-black shadow-[-4px_4px_0px_black] overflow-hidden flex flex-col md:flex-row">
       <div class="md:w-1/2 p-8 bg-orange-50">
         <h2 class="text-4xl font-bold mb-6 text-gray-800" in:fly="{{ y: 50, duration: 1000, delay: 300 }}">Let's Connect</h2>
         <p class="text-lg text-gray-600 mb-8" in:fly="{{ y: 50, duration: 1000, delay: 600 }}">

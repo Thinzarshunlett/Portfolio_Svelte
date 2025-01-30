@@ -7,7 +7,6 @@
 	import Work from '$lib/components/Work.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 
-    let isDarkMode = false;
     
     let currentSection = 'home';
     let projects = [
@@ -16,32 +15,16 @@
       { title: 'Gamma Interface', description: 'Cutting-edge design system', image: '/placeholder.svg?height=200&width=300' },
       { title: 'Delta Analytics', description: 'Data visualization dashboard', image: '/placeholder.svg?height=200&width=300' },
     ];
-  
-    function toggleDarkMode() {
-      isDarkMode = !isDarkMode;
-      if (isDarkMode) {
-        document.body.classList.add('dark');
-      } else {
-        document.body.classList.remove('dark');
-      }
-    }
+
   
     function setSection(section: any) {
   currentSection = section;
 }
 
-
-    onMount(() => {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      isDarkMode = prefersDark;
-      if (isDarkMode) {
-        document.body.classList.add('dark');
-      }
-    });
   </script>
   
-  <div class="min-h-screen flex flex-col transition-colors duration-300 {isDarkMode ? 'dark bg-gray-900 text-white' : 'bg-white text-gray-900'}">
-    <header class="flex items-center h-16 sticky top-0 border-b-2 backdrop-blur bg-white/30 dark:bg-gray-900/30 z-50 px-8 md:px-12">
+  <div class="min-h-screen flex flex-col transition-colors duration-300 ">
+    <header class="flex items-center h-16 sticky top-0 border-b-2 backdrop-blur bg-white/30 z-50 px-8 md:px-12">
     <div class=" py-4">
       <a href="https://thinzarshunlett.netlify.app/" class="text-black font-bold text-xs md:text-base ">Thinzar</a>
     </div>
@@ -77,9 +60,6 @@
     :global(body) {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    }
-    :global(.dark) {
-      color-scheme: dark;
     }
     .animate-fade-in {
       animation: fadeIn 0.5s ease-out;

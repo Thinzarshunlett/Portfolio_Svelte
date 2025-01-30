@@ -35,7 +35,7 @@
       <h2 class="mb-12 text-center text-3xl font-bold text-gray-800">Specialties</h2>
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:px-12 px-8">
         <!-- UI/UX Design Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative">
+        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
             <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
               <Pencil class="h-6 w-6 text-orange-600" />
             </div>
@@ -44,7 +44,7 @@
         </div>
 
         <!-- Responsive Design Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative">
+        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
           <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
             <Smartphone class="h-6 w-6 text-orange-600" />
           </div>
@@ -53,7 +53,7 @@
         </div>
        
         <!-- User Research Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative">
+        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
           <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
             <Search class="h-6 w-6 text-orange-600" />
           </div>
@@ -62,7 +62,7 @@
         </div>
 
         <!-- Front-end Skills Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative">
+        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
           <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
             <Zap class="h-6 w-6 text-orange-600" />
           </div>
