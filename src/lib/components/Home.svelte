@@ -14,7 +14,7 @@
           I’m a UI/UX Designer dedicated to creating intuitive, visually appealing, and user-friendly digital experiences. With a background in Computer Science and over a year of hands-on experience, I specialize in crafting seamless, error-free designs that prioritize functionality and user satisfaction. Currently, I work as a Junior UI/UX Designer at a technology company, continuously refining and innovating digital experiences.
         </p>
         <div class="flex w-full justify-center md:justify-start">
-          <button 
+          <button  
           class="my-6 px-4 py-2 bg-[#F85A1A] text-white rounded-md hover:bg-orange-600  transition-colors"
           >
             My work

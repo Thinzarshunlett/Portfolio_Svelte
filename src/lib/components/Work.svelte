@@ -19,7 +19,6 @@
         description: "A user-friendly UI/UX design I created in Figma for SwParse, a web app focused on advanced data extraction. This is one of my favorite designs, and I’m incredibly satisfied with how it turned out. It includes advanced, complex extraction features, and it’s not just my effort, it was a true collaboration with my talented developer teammates. If you ask me, this is the UI I’m most proud of! Unfortunately, the UI can’t be shown right now, but I’d be happy to share it with you when it’s available.",
         image: "/images/swparse.png",
         category: "Web Design",
-        liveUrl: "#"
       },
       {
         id: 3,
