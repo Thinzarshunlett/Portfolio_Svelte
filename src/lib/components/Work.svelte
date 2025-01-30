@@ -26,7 +26,7 @@
         description: "A mobile app redesign I developed for T&C Logistics, ensuring a modern and intuitive user experience while aligning with the brand’s logo theme. The redesign focuses on enhancing navigation, simplifying key workflows, and maintaining visual consistency with the logo’s color scheme and design elements, providing users with a seamless, cohesive experience for managing shipments and tracking deliveries.",
         image: "/images/tnc.png",
         category: "Mobile Design",
-        liveUrl: "https://frontend.tnclog.com/auth/signin"
+        liveUrl: "https://www.figma.com/design/fzqPWGzbxrNtm2B9CegcH7/TNC-for-portfolio?node-id=0-1&t=TCHOFjVW8wZmmNqX-1"
       },
       {
         id: 4,
