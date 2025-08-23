@@ -1,5 +1,8 @@
 <script>
         import { Pencil, Smartphone, Search, Zap } from 'lucide-svelte';
+        import SplineIframe from '$lib/SplineIframe.svelte';
+  const SPLINE_SCENE_URL =
+    "https://my.spline.design/interactivekeyboardbyabhinand-J5KKNH5gg7835aJ0GuvTg84q/";
 
 </script>
 <div class="m h-screen">
@@ -14,10 +17,12 @@
             <span class=" text-gray-800 p-2 md:p-3 text-sm md:text-base border border-black rounded-full">2 YEARS OF EXPERIENCES</span>
           </div>
         </div>
-
-       <div class="flex justify-center my-3 md:my-0">
+        <section class="grid place-items-center ">
+          <SplineIframe src={SPLINE_SCENE_URL} title="Interactive Keyboard" />
+        </section>
+       <!-- <div class="flex justify-center my-3 md:my-0">
         <img src="/images/hero.png" alt="Avatar" class="w-auto h-72 md:w-auto md:h-96 object-cover" />   
-       </div>   
+       </div>    -->
 
        <div class="flex justify-between items-center">
         <div class="flex items-center whitespace-nowrap">
@@ -32,7 +37,7 @@
           </svg>
         </div>
           <div class="">
-            <span class=" text-gray-800 font-semibold p-3 text-sm md:text-base border border-black rounded-full">Designing clarity into every pixel.</span>
+            <span class=" text-gray-800 font-semibold p-2 md:p-3 text-xs md:text-base border border-black rounded-full">Designing clarity into every pixel.</span>
           </div>
        </div>
 
