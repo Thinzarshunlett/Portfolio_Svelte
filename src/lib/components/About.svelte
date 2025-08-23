@@ -94,7 +94,7 @@
         </div>
         <div class="flex flex-col md:flex-row gap-10 border-black border-l-2 border-dotted md:ps-8 ps-4">
           <!-- Skills Overview -->
-          <div class="space-y-6 md:basis-1/2">
+          <div class="space-y-6 md:basis-3/4">
             <p class="text-gray-700 leading-relaxed">
               Passionate about UI/UX design with strong programming skills in HTML, CSS, Bootstrap, Tailwind, Svelte, and UI/UX. 
               I excel in creating intuitive interfaces and am dedicated to advancing my career in UI/UX design, leveraging my programming 
@@ -112,7 +112,40 @@
           </div>
       
           <!-- Skills Progress Bars -->
-          <div class="space-y-6 md:basis-1/2 bg-orange-50 border border-black rounded-xl md:p-6 p-3 shadow-[-3px_3px_0px_black] hover:shadow-[-4px_4px_0px_black]">
+           <div class="md:basis-1/2 justify-center">
+            <div class="flex flex-col gap-2 justify-center items-center">
+              <div class="flex flex-row gap-2  ">
+                <button
+                  class="w-[100px] h-[100px] outline-none border-none bg-white rounded-[100px_5px_5px_5px] shadow-lg transition-all duration-200 ease-in-out hover:scale-110 hover:bg-black hover:text-white hover:font-bold group flex items-center justify-center"
+                >
+                <svg class="mt-[1.5rem] ml-5 group-hover:fill-white w-8 h-8" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#1ABCFE" d="M8.55 8c0-1.289 1.019-2.333 2.275-2.333C12.082 5.667 13.1 6.71 13.1 8c0 1.289-1.018 2.333-2.275 2.333C9.57 10.333 8.55 9.29 8.55 8z"></path><path fill="#0ACF83" d="M4 12.667c0-1.289 1.019-2.334 2.275-2.334H8.55v2.334C8.55 13.955 7.531 15 6.275 15S4 13.955 4 12.667z"></path><path fill="#FF7262" d="M8.55 1v4.667h2.275c1.257 0 2.275-1.045 2.275-2.334C13.1 2.045 12.082 1 10.825 1H8.55z"></path><path fill="#F24E1E" d="M4 3.333c0 1.289 1.019 2.334 2.275 2.334H8.55V1H6.275C5.019 1 4 2.045 4 3.333z"></path><path fill="#A259FF" d="M4 8c0 1.289 1.019 2.333 2.275 2.333H8.55V5.667H6.275C5.019 5.667 4 6.71 4 8z"></path></g></svg>
+                </button>
+            
+                <button
+                  class="w-[100px] h-[100px] outline-none border-none bg-white rounded-[5px_100px_5px_5px] shadow-lg transition-all duration-200 ease-in-out hover:scale-110 hover:bg-[#8c9eff] hover:text-white hover:font-bold group flex items-center justify-center"
+                >
+                <p class="mt-[1.5rem] mr-5  font-medium md:text-base text-sm ">UI/UX</p>
+                </button>
+              </div>
+            
+              <div class="flex flex-row gap-2">
+                <button
+                  class="w-[100px] h-[100px] outline-none border-none bg-white rounded-[5px_5px_5px_100px] shadow-lg transition-all duration-200 ease-in-out hover:scale-110 hover:bg-[#03A9F4] hover:text-white hover:font-bold group flex items-center justify-center"
+                >
+                <p class=" ml-5  font-medium md:text-base text-sm ">Tailwind</p>
+                </button>
+            
+                <button
+                  class="w-[100px] h-[100px] outline-none border-none bg-white rounded-[5px_5px_100px_5px] shadow-lg transition-all duration-200 ease-in-out hover:scale-110 hover:bg-[#FF3E00] hover:text-white hover:font-bold group flex items-center justify-center"
+                >
+                <p class=" mr-5  font-medium md:text-base text-sm ">Svelte</p>
+                </button>
+              </div>
+            </div>
+          </div>
+         
+          
+          <!-- <div class="space-y-6 md:basis-1/2 bg-orange-50 border border-black rounded-xl md:p-6 p-3 shadow-[-3px_3px_0px_black] hover:shadow-[-4px_4px_0px_black]">
             {#each skills as skill}
               <div class="flex items-center justify-between md:gap-4 gap-2">
                 <span class="font-medium w-24 md:text-base text-sm">{skill.name}</span>
@@ -125,7 +158,7 @@
               <span class="font-medium w-24 md:text-base text-sm">Tool I use :</span>
               <img src="/images/figma.png" alt="Avatar" class="w-10 h-10 rounded-lg object-cover" />      
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
        <!-- Work Experience -->

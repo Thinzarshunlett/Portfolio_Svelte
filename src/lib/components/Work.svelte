@@ -187,7 +187,7 @@
           <div class="flex gap-2 md:gap-4">
             {#each categories as category}
               <button
-                class="md:px-4 px-2 py-2 rounded-lg text-xs md:text-base font-semibold {activeCategory === category ? 'bg-white text-black shadow-[-2px_2px_0px_black] border border-black' : 'hover:bg-white hover:text-black hover:shadow-[-2px_2px_0px_black] hover:border hover:border-black'}"
+                class="md:px-4 px-2 py-2 rounded-lg text-xs md:text-base font-semibold {activeCategory === category ? 'bg-white text-black shadow-[2px_2px_black] border border-black' : 'hover:bg-white hover:text-black hover:shadow-[2px_2px_black] hover:border hover:border-black'}"
                 on:click={() => activeCategory = category}
               >
                 {category}
@@ -202,7 +202,7 @@
         </div>
         {#if isModalOpen}
           <div class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-10">
-            <div class="bg-orange-50 p-6 rounded-lg w-96 border border-black shadow-[-4px_4px_0px_black]">
+            <div class="bg-orange-50 p-6 rounded-lg w-96 border border-black shadow-[4px_4px_black]">
               <h2 class="text-lg font-bold text-center">Portfolio Info</h2>
               <p class="mt-4 text-center">
                 All designs and UI in this portfolio were handled by me. Some other UI projects involved collaborative efforts. Most of the projects are AI-focused, but I’m excited to explore new areas like e-commerce, color-focused UI design, and more in the future!
@@ -219,7 +219,7 @@
     <!-- Project Grid -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
       {#each filteredProjects as project}
-        <div class="bg-white rounded-lg border overflow-hidden hover:border-black hover:shadow-[-4px_4px_0px_black]">
+        <div class="bg-white rounded-lg border overflow-hidden hover:border-black hover:shadow-[4px_4px_black]">
           <div class="relative aspect-video">
             <img 
               src={project.image || "/placeholder.svg"} 

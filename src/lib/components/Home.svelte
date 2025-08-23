@@ -2,73 +2,40 @@
         import { Pencil, Smartphone, Search, Zap } from 'lucide-svelte';
 
 </script>
-<div class="m min-h-screen">
+<div class="m h-screen">
     <!-- Hero Section -->
-    <div class="relative flex flex-col-reverse md:flex-row md:gap-16 items-center md:px-12 px-8 bg-orange-50 rounded-br-3xl rounded-bl-3xl">
-      <div class="basis-3/4">
-        <p class="text-gray-600 text-center md:text-start">Hello, I'm</p>
-        <!-- <h1 class="mt-2 text-5xl font-bold text-orange-600 md:text-6xl text-center md:text-start">UI/UX Designer</h1> -->
-        <h2 class="mt-2 text-2xl font-semibold text-gray-800 text-center md:text-start">Thinzar Shun Lett</h2>
-        <h1 class="mt-4 text-3xl font-bold text-orange-600 md:text-3xl text-center md:text-start">Designing seamless digital experiences</h1>
-        <p class="mt-4 text-gray-600 text-center md:text-start">
-          I’m a UI/UX Designer dedicated to creating intuitive, visually appealing, and user-friendly digital experiences. With a background in Computer Science and over a year of hands-on experience, I specialize in crafting seamless, error-free designs that prioritize functionality and user satisfaction. Currently, I work as a Junior UI/UX Designer at a technology company, continuously refining and innovating digital experiences.
-        </p>
-        <div class="flex w-full justify-center md:justify-start">
-          <button  
-          class="my-6 px-4 py-2 bg-[#F85A1A] text-white rounded-md hover:bg-orange-600  transition-colors"
+    <section>
+      <div class="p-8 md:p-12 ">
+        <div class="flex-col md:flex justify-between">
+          <div class=" basis-3/4">
+            <h3 class=" text-3xl md:text-5xl">I’m Thinzar, a UI/UX designer growing with every project, focused on creating clean layouts, smooth experiences, and designs that truly work for users.</h3>
+          </div>
+          <div class="md:mt-6 mt-8">
+            <span class=" text-gray-800 p-2 md:p-3 text-sm md:text-base border border-black rounded-full">2 YEARS OF EXPERIENCES</span>
+          </div>
+        </div>
+
+       <div class="flex justify-center my-3">
+        <img src="/images/hero.png" alt="Avatar" class="w-auto h-72 md:w-auto md:h-96 object-cover" />   
+       </div>   
+
+       <div class="flex justify-between items-center">
+        <div class="flex items-center whitespace-nowrap">
+          <span class="text-sm md:text-base">GO TO WORK</span>
+          <svg 
+            class="ml-2 w-6 h-6" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
           >
-            My work
-          </button>
+            <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
         </div>
-      </div>
-      <div class="flex justify-center md:justify-end">
-        <img
-          src="/images/UI.png"
-          alt="Cute cartoon character"
-          class="max-w-[300px] md:max-w-[500px] rounded-full"
-        />
-      </div>
-    </div>
-
-    <!-- Specialties Section -->
-    <section class="mt-8 mb-16">
-      <h2 class="mb-12 text-center text-3xl font-bold text-gray-800">Specialties</h2>
-      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4 md:px-12 px-8">
-        <!-- UI/UX Design Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
-            <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
-              <Pencil class="h-6 w-6 text-orange-600" />
-            </div>
-          <h3 class="mb-2 text-xl font-semibold">UI/UX Design</h3>
-          <p class="text-gray-600">Creating user-friendly interfaces</p>
-        </div>
-
-        <!-- Responsive Design Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
-          <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
-            <Smartphone class="h-6 w-6 text-orange-600" />
+          <div class="">
+            <span class=" text-gray-800 font-semibold p-3 text-sm md:text-base border border-black rounded-full">Designing clarity into every pixel.</span>
           </div>
-          <h3 class="mb-2 text-xl font-semibold">Responsive Design</h3>
-          <p class="text-gray-600">Mobile-first approach</p>
-        </div>
-       
-        <!-- User Research Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
-          <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
-            <Search class="h-6 w-6 text-orange-600" />
-          </div>
-          <h3 class="mb-2 text-xl font-semibold">User Research</h3>
-          <p class="text-gray-600">Understanding user behavior</p>
-        </div>
+       </div>
 
-        <!-- Front-end Skills Card -->
-        <div class="rounded-lg border border-dashed border-gray-200 p-8 bg-orange-50 relative hover:shadow-md hover:shadow-black-400">
-          <div class="absolute bg-orange-50 text-white rounded-md p-2 -top-5 right-5 border border-black shadow-[-2px_2px_0px_black]">
-            <Zap class="h-6 w-6 text-orange-600" />
-          </div>
-          <h3 class="mb-2 text-xl font-semibold">Front-end Skills</h3>
-          <p class="text-gray-600">Svelte, Tailwind CSS</p>
-        </div>
       </div>
     </section>
-  </div>
+</div>
