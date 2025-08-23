@@ -15,7 +15,7 @@
           </div>
         </div>
 
-       <div class="flex justify-center my-3">
+       <div class="flex justify-center my-3 md:my-0">
         <img src="/images/hero.png" alt="Avatar" class="w-auto h-72 md:w-auto md:h-96 object-cover" />   
        </div>   
 
