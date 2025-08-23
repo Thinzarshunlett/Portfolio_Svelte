@@ -6,11 +6,11 @@
     <!-- Hero Section -->
     <section>
       <div class="p-8 md:p-12 ">
-        <div class="flex-col md:flex justify-between">
+        <div class="md:flex justify-between">
           <div class=" basis-3/4">
             <h3 class=" text-3xl md:text-5xl">I’m Thinzar, a UI/UX designer growing with every project, focused on creating clean layouts, smooth experiences, and designs that truly work for users.</h3>
           </div>
-          <div class="md:mt-6 mt-8">
+          <div class="md:mt-6 mt-8 ">
             <span class=" text-gray-800 p-2 md:p-3 text-sm md:text-base border border-black rounded-full">2 YEARS OF EXPERIENCES</span>
           </div>
         </div>
