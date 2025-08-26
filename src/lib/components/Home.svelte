@@ -4,8 +4,58 @@
   const SPLINE_SCENE_URL =
     "https://my.spline.design/interactivekeyboardbyabhinand-J5KKNH5gg7835aJ0GuvTg84q/";
 
+    let items = [
+      {
+      id: 1,
+      title: "NeuralDev Landing Page",
+      description: "A modern, intuitive landing page I created for NeuralDev...",
+      image: "/images/ND.png",
+    },
+    {
+      id: 2,
+      title: "SWParse",
+      description: "A user-friendly UI/UX design I created in Figma for SwParse...",
+      image: "/images/swparse.png",
+    },
+    {
+      id: 3,
+      title: "T&C Logistics",
+      description: "A mobile app redesign I developed for T&C Logistics...",
+      image: "/images/tnc.png",
+    },
+    {
+      id: 4,
+      title: "Vaccination Event",
+      description: "A clean, intuitive UI/UX design I created for managing vaccination events...",
+      image: "/images/vacci.png",
+    },
+    {
+      id: 5,
+      title: "LC Search",
+      description: "A sleek, efficient UI/UX design I created for the Labor Category Search...",
+      image: "/images/lc.png",
+    },
+    {
+      id: 6,
+      title: "FedFunl Mobile UI",
+      description: "I redesigned the FedFunl UI for a more user-friendly and efficient experience...",
+      image: "/images/fed.png",
+    },
+    {
+      id: 7,
+      title: "Hexcode Landing Page",
+      description: "I designed a landing page for Hexcode Technologies...",
+      image: "/images/Hexcode.png",
+    },
+    {
+      id: 8,
+      title: "Driving Online Enrollment UI",
+      description: "Designed a responsive, mobile-friendly UI in Figma...",
+      image: "/images/car.png",
+    }
+  ];
 </script>
-<div class="m h-screen">
+<div class="">
     <!-- Hero Section -->
     <section>
       <div class="p-8 md:p-12 ">
@@ -41,6 +91,33 @@
           </div>
        </div>
 
+      </div>
+    </section>
+
+    <section class="">
+      <div class="mx-8 md:mx-12 border-t border-slate-200 py-4 md:py-12 md:flex  border-dotted ">
+        <div class="flex basis-1/4 whitespace-nowrap sticky md:top-20  self-start py-2 bg-white z-10">
+          <span class="text-sm md:text-base">PROJECTS</span>
+          <svg 
+            class="ml-2 w-6 h-6" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M12 6V18M12 18L7 13M12 18L17 13" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-12 w-full">
+          {#each items as item}
+            <div class="space-y-4 ">
+              <h3 class="mb-4 font-semibold">{item.title}</h3>
+              <span class=" text-sm text-gray-500">{item.description}</span>
+              <div class=" md:h-52 w-full bg-gray-50 rounded-sm flex items-center justify-center">
+                <img src={item.image} alt={item.title} class=" object-center h-full w-full rounded-sm" />
+            </div>
+            </div>
+          {/each}
+        </div>
       </div>
     </section>
 </div>
